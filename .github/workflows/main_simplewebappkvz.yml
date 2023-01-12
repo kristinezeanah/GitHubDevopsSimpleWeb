@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-dir: ./SimpleWebAssemblyApp
+    working-directory: ./SimpleWebAssemblyApp
 jobs:
   build:
     runs-on: windows-latest
