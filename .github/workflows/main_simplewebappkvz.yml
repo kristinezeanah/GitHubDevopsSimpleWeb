@@ -9,6 +9,9 @@ on:
       - main
   workflow_dispatch:
 
+defaults:
+  run:
+    working-dir: ./SimpleWebAssemblyApp
 jobs:
   build:
     runs-on: windows-latest
